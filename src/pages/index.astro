@@ -3,16 +3,16 @@ import Layout from '../layouts/Layout.astro';
 import SectionContainer from '../components/SectionContainer.astro';
 
 import Hero from '../components/Hero.astro';
-import About from '../pages/about.astro';
-import Menu from '../pages/menu.astro';
-import Chef from '../pages/chef.astro';
-import Blog from '../pages/blog.astro';
+import About from '../components/About.astro';
+import Menu from '../components/Menu.astro';
+import Chef from '../components/Chef.astro';
+import Blog from '../components/Blog.astro';
 ---
 
 <Layout title="Yumhub - Delicious pizza">
 	<main>
 		<Hero/>
-		<About/>
+		<About id="#about"/>
 		<Menu/>
 		<SectionContainer>
 			<Chef/>
@@ -23,5 +23,3 @@ import Blog from '../pages/blog.astro';
 		</SectionContainer>
 	</main>
 </Layout>
-
-
