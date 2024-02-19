@@ -1,0 +1,53 @@
+---
+import StarsIcon from '../icons/stars.astro'
+import ChefIcon from '../icons/chefIcon.astro'
+import DinnerIcon from '../icons/dinner.astro'
+import HappyIcon from '../icons/happy.astro'
+
+---
+<section class="py-16 ">
+    <h2 class="yellow text-center">Popular Item</h2>
+    <h3 class="text-white text-center text-4xl my-5">Chef´s 
+        <strong>Specialities</strong>
+    </h3>
+    <p class="text-white text-lg text-center text-pretty max-w-4xl m-auto">
+        Journey Through a Selection of Treasured Dishes, Cherised by Our Patrons, Each a Masterpiece of Flavor and Craftsmanship, Elevating Dining Experiences.
+    </p>
+    
+    <div class="grid lg:grid-cols-4 gap-4 sm:grid-cols-2 items-center justify-center my-5 lg:px-20  m-auto">
+        <img src="/img/chef.jpg" alt="" class="lg:h-4/5  lg:w-full ">
+        <img src="/img/chef2.jpg" alt="" class="lg:h-4/5  lg:w-full">
+        <img src="/img/chef3.jpg" alt="" class="lg:h-4/5  lg:w-full">
+        <img src="/img/chef4.jpg" alt="" class="lg:h-4/5  lg:w-full">
+    </div>
+
+    
+    <div class="w-full bg-b p-10">
+        <div class=" grid lg:grid-cols-4 sm:grid-cols-2 gap-10 justify-center items-center m-auto">
+            <div class="m-auto ">
+                <HappyIcon class="yellow size-14"/>
+                <h2 class="yellow text-4xl my-3">5000+</h2>
+                <p class="text-white font-normal text-1sm">Happy Customer</p>
+            </div>
+            
+            <div class="m-auto">
+                <ChefIcon class="yellow size-14"//>
+                <h2 class="yellow text-4xl my-3">20+</h2>
+                <p class="text-white font-normal text-1sm">Happy Customer</p>
+            </div>
+            
+            <div class="m-auto">
+                <DinnerIcon class="yellow size-14"//>
+                <h2 class=" yellow text-4xl my-3">100+</h2>
+                <p class="text-white font-normal text-1sm">Popular Dishes</p>
+            </div>
+            
+            <div class="m-auto">
+                <StarsIcon class="yellow size-14"/>
+                <h2 class=" yellow text-4xl my-3">4.9+</h2>
+                <p class="text-white font-normal text-1sm">Customer Rating</p>
+            </div>
+        </div>
+    </div>
+    
+</section>

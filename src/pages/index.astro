@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SectionContainer from '../components/SectionContainer.astro';
+
+import Hero from '../components/Hero.astro';
+import About from '../pages/about.astro';
+import Menu from '../pages/menu.astro';
+import Chef from '../pages/chef.astro';
+import Blog from '../pages/blog.astro';
+---
+
+<Layout title="Yumhub - Delicious pizza">
+	<main>
+		<Hero/>
+		<About/>
+		<Menu/>
+		<SectionContainer>
+			<Chef/>
+		</SectionContainer>
+
+		<SectionContainer>
+			<Blog/>
+		</SectionContainer>
+	</main>
+</Layout>
+
+
